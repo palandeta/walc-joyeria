@@ -1,8 +1,59 @@
-<html>
-  <head>
-    Sitio con ChatGPT
-  </head>
-  <body>
-    <h1>HOLAAAAA</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard de Joyas Locales</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-white text-center py-3">
+        <h1>Nombre de tu Sitio</h1>
+    </header>
+
+    <!-- Menú -->
+    <nav class="bg-gold text-white text-center py-2">
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Inicio</a></li>
+            <li class="list-inline-item"><a href="#">Productos</a></li>
+            <li class="list-inline-item"><a href="#">Acerca de Nosotros</a></li>
+            <li class="list-inline-item"><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slider / Carrusel de Imágenes -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagen1.jpg" class="d-block w-100" alt="Imagen 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Texto descriptivo (15 palabras) sobre la joya de la imagen.</p>
+                </div>
+            </div>
+            <!-- Agrega más elementos .carousel-item para más imágenes -->
+        </div>
+    </div>
+
+    <!-- Álbum de Imágenes con Textos -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="imagen2.jpg" class="img-fluid" alt="Imagen 2">
+                <p class="mt-2">Texto descriptivo (100 palabras) sobre la joya de la imagen.</p>
+            </div>
+            <!-- Agrega más divs .col-md-4 para más imágenes -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
 </html>
+
