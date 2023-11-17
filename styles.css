@@ -1,0 +1,12 @@
+/* Estilos personalizados */
+
+/* Estilo del menú */
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilo del fondo dorado */
+.bg-gold {
+    background-color: gold;
+}
